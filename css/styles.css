@@ -1,0 +1,162 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster|Raleway';
+/*Global*/
+*{
+  box-sizing: border-box;
+}
+/*Header*/
+.navbar-default{
+  background-color: transparent;
+  border: none;
+}
+.navbar-brand{
+  background-image: url('../img/name-01.png');
+  background-position: center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  display: inline-block;
+  min-height: 10px;
+  width:200px;
+}
+.navbar-default .navbar-nav>li>a{
+  color:#fff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color:#fff;
+  background-color:rgba(0,0,0,.4)!important;
+}
+.btn-default{
+  background-color:#f8512f;
+  color:#fff;
+  border:none;
+}
+.btn-default:hover{
+  background-color: #d34326;
+  color:#fff;
+  border:none;
+}
+/*Carousel*/
+.wood-img{
+  background-image: url('../img/wood-2.jpg');
+  background-position: center;
+  background-size:cover;
+}
+.table-img{
+  background-image: url('../img/restaurant-2.jpg');
+  background-position: center;
+  background-size:cover;
+}
+.farm-img{
+  background-image: url('../img/farm-2.jpg');
+  background-position: center;
+  background-size:cover;
+}
+.item{
+  height: 600px;
+}
+.carousel-caption{
+  margin-bottom: 100px;
+}
+/*Main*/
+.mid-explanation{
+  font-size:11px;
+}
+.mid-c{
+  margin:100px 0px 200px 0px;
+}
+#our-story-wrapper{
+  min-height: 80vh;
+}
+
+#story{
+  text-transform: capitalize;
+  color:#F8512F;
+  text-shadow: 1px 1px 4px #000;
+  font-family: 'Lobster', cursive;
+  font-size: 65px;
+}
+#dream{
+  font-size: 21px;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+#time{
+  position: absolute;
+  bottom: 30px;
+  font-size: 150px;
+  z-index: -2;
+  font-family: 'Playfair Display', serif;
+  color:rgba(149, 147, 147, .2);
+  font-weight: 700;
+}
+#logo-img{
+  width: 300px;
+  margin-bottom:20px;
+}
+.food-review{
+  background-image: url('../img/food_review.jpg');
+  height: 400px;
+  background-position: center;
+  background-size:cover;
+  background-repeat: none;
+  margin-bottom: 0px;
+}
+.fresno-bee{
+  color:#F8512F !important;
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 1px 4px #000;
+}
+.review{
+  text-align: center;
+  width:75%;
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 8px;
+  padding: 10px;
+}
+.review-text{
+  color:#fff;
+  font-family: 'Raleway', sans-serif;
+}
+/*Menu*/
+#menu{
+  background-image: url('../img/black_linen.png');
+  padding: 30px;
+  background-size:cover;
+  min-height: 80vh;
+}
+.menu-h1{
+  text-align: center;
+  color:#fff;
+  font-family: 'Lobster', cursive;
+  font-size: 60px
+}
+.menu-tabs a{
+  color:#F8512F;
+  font-weight: bold;
+}
+.thumb-space{
+  padding: 0px;
+}
+.thumbnail{
+  border-radius: 0px;
+  border:0px;
+  padding: 15px;
+}
+.thumb-img{
+  border:1px solid #E9E9E9;
+}
+.thumb-header{
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+}
+.tumb-content{
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+/*Footer*/
+.footer{
+  background-color: #F8512F;
+  color:#fff;
+}
+#foot-size{
+  width:70%;
+}
